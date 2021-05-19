@@ -1,11 +1,10 @@
-const name=[
-"rohan",
-"raghav",
-"dibya"];
+const name=["rohan", "raghav", "dibya"];
 
-if (name[0]==="rohan") {
-  console.log("Yes");
-}
-else{
-	console.log("No");
-}
+name.forEach( (name)=>{
+  if(name == "rohan"){
+    console.log("i am "+name)
+  }
+  else{
+    console.log("i am "+name+"not rohan")
+  }
+});
